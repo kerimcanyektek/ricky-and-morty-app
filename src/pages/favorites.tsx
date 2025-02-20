@@ -41,7 +41,7 @@ export default function Favorites() {
             ))}
           </FavoritesList>
         ) : (
-          <NoFavorites>Your favorites list is empty.</NoFavorites>
+          <NoFavorites>Favori karakteriniz bulunamadı.</NoFavorites>
         )}
       </FavoritesContainer>
     </>

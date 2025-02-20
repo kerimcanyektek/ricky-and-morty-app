@@ -1,5 +1,6 @@
 import { FooterContainer, LogoContainer, MenuContainer, FooterCopy, FooterMenu } from '../../styles/components/Footer';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export function Footer() {
@@ -11,9 +12,9 @@ export function Footer() {
       </LogoContainer>
       <MenuContainer>
         <FooterMenu>
-          <h4>Menü</h4>
-          <a href="/">Anasayfa</a>
-          <a href="/favorites">Favoriler</a>
+          <h4>Bağlantılar</h4>
+          <Link href="/">Ana Sayfa</Link>
+          <Link href="/favorites">Favoriler</Link>
         </FooterMenu>
       </MenuContainer>
       <FooterCopy>
